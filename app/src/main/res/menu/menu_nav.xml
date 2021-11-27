@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Copyright (c) 2017 Tran Le Duy
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Tool">
+        <menu>
+            <item
+                android:id="@+id/action_see_logcat"
+                android:icon="@drawable/ic_line_weight_white_24dp"
+                android:title="Android Logcat">
+            </item>
+        </menu>
+    </item>
+    <item android:title="@string/learn">
+        <menu>
+            <item
+                android:id="@+id/action_sample"
+                android:icon="@drawable/ic_code_white_24dp"
+                android:title="@string/sample_code_java"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/action_select_theme"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="@string/theme_font"
+                android:visible="false"/>
+
+            <item
+                android:id="@+id/action_setting"
+                android:enabled="true"
+                android:icon="@drawable/ic_settings_white_24dp"
+                android:title="@string/setting_editor"/>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/information">
+
+        <menu>
+            <item
+                android:id="@+id/action_donate"
+                android:icon="@drawable/ic_donate_white"
+                android:title="@string/donate"/>
+            <item
+                android:id="@+id/action_report_bug"
+                android:icon="@drawable/ic_bug_report_white_24dp"
+                android:title="@string/report_bug"/>
+            <item
+                android:id="@+id/action_github"
+                android:icon="@drawable/ic_bug_report_white_24dp"
+                android:title="@string/github_repo"/>
+
+            <item
+                android:id="@+id/action_install"
+                android:icon="@drawable/ic_system_update_white_24dp"
+                android:title="@string/system_info"/>
+        </menu>
+    </item>
+</menu>
